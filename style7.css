@@ -1,0 +1,14 @@
+body {
+    background: #0a0a0a;
+}
+.card 
+{
+    display: flex;
+}
+.karta {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
