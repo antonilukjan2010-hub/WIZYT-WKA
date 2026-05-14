@@ -1,9 +1,14 @@
 body {
     background: #0a0a0a;
+    width: 100%;
+    height: 100%;
 }
 .card 
 {
     display: flex;
+    width: 18rem;
+    background-size: cover;
+    background-position: center;
 }
 .karta {
     position: relative;
@@ -11,4 +16,19 @@ body {
     align-items: center;
     display: flex;
 
+}
+
+
+@media(max-width:1200px){
+.card{
+    width: 100%;
+    height: 100%;
+}
+
+.card2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index:0;
+}
 }
